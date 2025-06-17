@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #00b4d8;
+    text-align: center;
+}
+
+h1{
+   color:#054294;
+   font-size: 4.8rem;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hide{
+    display: none;
+}
+#newGame{
+    height: 10vh;
+    width:20vh;
+    border-radius: 10px;
+    background-color: rgb(63, 193, 63);
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    border: none;
+}
+.game{
+    height:60vh;
+    width:60vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+
+}
+
+#resetBtn{
+    height: 10vh;
+    width:20vh;
+    border-radius: 10px;
+    background-color: #03045e;
+    color: aliceblue;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.box{
+    height: 15vh;
+    width: 15vh;
+    flex-wrap: wrap;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: none;
+    color: red;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+#msg{
+    color: rgb(202, 75, 25);
+    font-size: 8vmin;
+    font-family: Arial, Helvetica, sans-serif;
+}
